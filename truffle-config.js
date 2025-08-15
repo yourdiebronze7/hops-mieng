@@ -10,13 +10,13 @@ module.exports = {
       // Cổng cho mạng phát triển
       port: 7545,
       // ID mạng, dùng để xác định mạng
-      network_id: "*"
+      network_id: "*" // Tất cả các mạng đều có thể kết nối
     }
   },
   compilers: {
     solc: {
       // Phiên bản của trình biên dịch Solidity
-      version: "0.8.0"
+      version: "0.8.0" // Sử dụng phiên bản 0.8.0 của Solidity
     }
   }
 };
